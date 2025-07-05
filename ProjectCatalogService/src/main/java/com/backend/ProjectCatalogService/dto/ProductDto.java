@@ -8,9 +8,9 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ProductDto extends BaseModel {
-    private String name;
+    private String title;
     private Double price;
-    private String imageUrl;
     private String description;
+    private String imageUrl;
     private Category category;
 }

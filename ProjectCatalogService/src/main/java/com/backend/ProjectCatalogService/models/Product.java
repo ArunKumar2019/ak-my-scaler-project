@@ -9,10 +9,10 @@ import lombok.Setter;
 @Setter
 public class Product extends  BaseModel{
 
-    private String name;
+    private String title;
     private Double price;
-    private String imageUrl;
     private String description;
+    private String imageUrl;
     private Category category;
     private Boolean isPrimeSaleEligibale;
     private Double commission;
